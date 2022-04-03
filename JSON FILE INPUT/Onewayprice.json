@@ -1,0 +1,51 @@
+{
+  "OfferPriceRQ": {
+    "Sender": {
+      "TravelAgencySender": {
+        "AgencyID": "MRST",
+        "Contacts": {
+          "Contact": [
+            {
+              "EmailContact": "srilanakamrst@gmail.com"
+            }
+          ]
+        },
+        "IATA_Number": "",
+        "Name": "MRST"
+      }
+    },
+    "DataLists": {
+      "PassengerList": {
+        "Passenger": [
+          {
+            "PassengerID": "T1",
+            "PTC": "ADT"
+          },
+          {
+            "PassengerID": "T2",
+            "PTC": "CHD"
+          },
+          {
+            "PassengerID": "T3",
+            "PTC": "INF"
+          }
+        ]
+      }
+    },
+    "Query": {
+      "Offer": [
+        {
+          "OfferID": "1777142611648460730864142735"
+        }
+      ]
+    },
+    "MetaData": {
+      "TraceId": "161777799749"
+    },
+    "ShoppingResponseId": "1648460730328508671",
+    "Document": {
+      "ReferenceVersion": "1.0",
+      "Name": "Skyroute B2B Portal"
+    }
+  }
+}

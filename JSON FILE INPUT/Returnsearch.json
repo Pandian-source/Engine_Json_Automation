@@ -1,0 +1,135 @@
+{
+  "AirShoppingRQ": {
+    "Party": {
+      "Sender": {
+        "TravelAgencySender": {
+          "AgencyID": "",
+          "Contacts": {
+            "Contact": [
+              {
+                "EmailContact": "srilanakamrst@gmail.com"
+              }
+            ]
+          },
+          "IATA_Number": "",
+          "Name": "MRST"
+        }
+      }
+    },
+    "DataLists": {
+      "PassengerList": {
+        "Passenger": [
+          {
+            "PassengerID": "T1",
+            "PTC": "ADT"
+          },
+          {
+            "PassengerID": "T2",
+            "PTC": "CHD"
+          },
+          {
+            "PassengerID": "T3",
+            "PTC": "INF"
+          }
+        ]
+      }
+    },
+    "Preference": {
+      "FreeBaggage": "N",
+      "FareType": [
+        "BOTH"
+      ],
+      "NoOfStops": [],
+      "DoubleOneWay": "",
+      "Refundable": "",
+      "SourceFrom": [
+        "ALL"
+      ],
+      "AirlinePreference": {
+        "ExcludeAirlines": [],
+        "PreferedAirlines": [
+          "WY"
+        ]
+      },
+      "NearByAirports": "",
+      "RbdPreference": {
+        "ExcludeRbds": [],
+        "RequireAllRbd": "N",
+        "PreferedRbds": []
+      },
+      "Penalties": {
+        "Refundable": "N",
+        "ZeroChangeFee": "N",
+        "NoCancellationFee": "N",
+        "RebookingPossible": "N"
+      },
+      "Cabin": "ECONOMY",
+      "DirectFlight": "",
+      "TripType": "Return",
+      "ConnectionTime": {
+        "Min": "",
+        "Max": ""
+      },
+      "StopPreference": {
+        "PreferedStops": [],
+        "ExcludeStops": []
+      },
+      "AlternateDays": 0,
+      "CountryPreference": {
+        "ExcludeCountry": []
+      },
+      "AlliancePreference": {
+        "PreferedAlliance": [],
+        "ExcludeAlliance": []
+      }
+    },
+    "MetaData": {
+      "LocalPccCountry": "IN",
+      "Tracking": "Y",
+      "RecommendedFare": "Y",
+      "Currency": "CAD",
+      "ProductType": "F",
+      "FareGrouping": "deal",
+      "TraceId": "163672258977",
+      "PortalUserGroup": "G1",
+      "UpSale": "Y",
+      "ParentAccountId": 4
+    },
+    "CoreQuery": {
+      "OriginDestinations": {
+        "OriginDestination": [
+          {
+            "Departure": {
+              "DepartureTime": {
+                "From": "",
+                "To": ""
+              },
+              "NoOfMiles": "",
+              "AirportCode": "MAA",
+              "Date": "2022-09-20"
+            },
+            "Arrival": {
+              "NoOfMiles": "",
+              "AirportCode": "DXB"
+            }
+          },
+          {
+            "Departure": {
+              "DepartureTime": {
+                "From": "",
+                "To": ""
+              },
+              "NoOfMiles": "",
+              "AirportCode": "DXB",
+              "Date": "2022-09-25"
+            },
+            "Arrival": {
+              "NoOfMiles": "",
+              "AirportCode": "MAA"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

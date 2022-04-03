@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+		<listener class-name="listener.TestListeners" />
+        <listener class-name="listener.AnnotationTransformer" />
+</listeners>
+  <test name="Oneway Search">
+    <classes>
+      <class name="runner.EngineApiTest">
+        <methods>
+          <include name="request"/>
+          <include name="verifyOnewaySearching"/>
+          <include name="onewayShopping"/>
+          <include name="onewayOffer"/>
+          <include name="onewayOwner"/>
+          <include name="onewayOwnerName"/>
+          <include name="onewayItinerary"/>
+          <include name="onewayIdentifier"/>
+          <include name="onewayPcc"/>
+          <include name="onewayProviderInfo"/>
+          <include name="onewayCabinType"/>
+          <include name="onewayBaseBookingCurrencyPrice"/>
+          <include name="onewayTaxBookingCurrencyPrice"/>
+          <include name="onewayFopRef"/>
+          <include name="onewayBookingCurrencyCode"/>
+          <include name="pricingVerify"/>
+          <include name="pricingShoppingResponseId"/>
+          <include name="offerResponseId"/>
+          <include name="pricingOfferId"/>
+          <include name="bookingCurrencyPrice"/>
+          <include name="bookingVerify"/>
+          <include name="responseOrderId"/>
+          <include name="gdsBookingReference"/>
+          <include name="orderStatus"/>
+          <include name="fareType"/>
+          <include name="orgFareType"/>
+          <include name="supplierId"/>
+          <include name="flightDeparture"/>
+        </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+<!--  <test name="Oneway Card Search">-->
+<!--    <classes>-->
+<!--      <class name="runner.EngineApiTest">-->
+<!--        <methods>-->
+<!--          <include name="cardRequest"/>-->
+<!--          <include name="onewayCardSearching"/>-->
+<!--          <include name="onewayCardShopping"/>-->
+<!--          <include name="onewayCardPricingVerify"/>-->
+<!--          <include name="onewayCardBookingVerify"/>-->
+<!--          <include name="onFlyMarkupVerify"/>-->
+<!--        </methods>-->
+<!--      </class>-->
+<!--    </classes>-->
+<!--  </test> &lt;!&ndash; Test &ndash;&gt;-->
+<!--  <test name="Return Search">-->
+<!--    <classes>-->
+<!--      <class name="runner.EngineApiTest">-->
+<!--        <methods>-->
+<!--          <include name="returnSearchRequest"/>-->
+<!--          <include name="returnSearch"/>-->
+<!--          <include name="returnShopping"/>-->
+<!--          <include name="returnPricing"/>-->
+<!--          <include name="returnPricingShoppingResponseId"/>-->
+<!--          <include name="returnBooking"/>-->
+<!--          <include name="returnBookingResponseOrderId"/>-->
+<!--        </methods>-->
+<!--      </class>-->
+<!--    </classes>-->
+<!--  </test> &lt;!&ndash; Test &ndash;&gt;-->
+<!--  <test name="MultiCity Search">-->
+<!--    <classes>-->
+<!--      <class name="runner.EngineApiTest">-->
+<!--        <methods>-->
+<!--          <include name="multiCityRequest"/>-->
+<!--          <include name="multiCitySearch"/>-->
+<!--          <include name="multiCityShopping"/>-->
+<!--          <include name="multiCityPricing"/>-->
+<!--          <include name="multiCityPricingShoppingResponseId"/>-->
+<!--          <include name="multiCityBooking"/>-->
+<!--          <include name="multiCityBookingResponseOrderId"/>-->
+<!--        </methods>-->
+<!--      </class>-->
+<!--    </classes>-->
+<!--  </test> &lt;!&ndash; Test &ndash;&gt;-->
+<!--  <test name="OpenJaw Search">-->
+<!--    <classes>-->
+<!--      <class name="runner.EngineApiTest">-->
+<!--        <methods>-->
+<!--          <include name="openJawRequest"/>-->
+<!--          <include name="openJawSearch"/>-->
+<!--          <include name="openJawShopping"/>-->
+<!--          <include name="openJawPricing"/>-->
+<!--          <include name="openJawPricingShoppingResponseId"/>-->
+<!--          <include name="openJawBooking"/>-->
+<!--          <include name="openJawBookingResponseOrderId"/>-->
+<!--        </methods>-->
+<!--      </class>-->
+<!--    </classes>-->
+<!--  </test> &lt;!&ndash; Test &ndash;&gt;-->
+</suite> <!-- Suite -->

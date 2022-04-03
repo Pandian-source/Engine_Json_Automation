@@ -1,0 +1,317 @@
+{
+  "OrderCreateRQ": {
+    "Query": {
+      "Offer": [
+        {
+          "OfferID": "1777142611648460730864142735"
+        }
+      ]
+    },
+    "PromoCode": "",
+    "BookingReqId": "0DA448DA",
+    "BookingPgName": "",
+    "Payments": {
+      "Payment": [
+        {
+          "Payer": {
+            "ContactInfoRefs": "CTC2"
+          },
+          "Type": "CARD",
+          "PassengerID": "ALL",
+          "Amount": 684.0,
+          "Method": {
+            "PaymentCard": {
+              "CardNumber": "card_number_a1ea5a4e51fd74536a49f165423f8d678abba23b1159f01acdbc339e48159f7e",
+              "EffectiveExpireDate": {
+                "Expiration": "exp_year_a1ea5a4e51fd74536a49f165423f8d678abba23b1159f01acdbc339e48159f7e-exp_month_a1ea5a4e51fd74536a49f165423f8d678abba23b1159f01acdbc339e48159f7e",
+                "Effective": ""
+              },
+              "SeriesCode": "cvv_a1ea5a4e51fd74536a49f165423f8d678abba23b1159f01acdbc339e48159f7e",
+              "CardType": "CC",
+              "CardCode": "AX",
+              "CardHolderName": "card_holder_name_a1ea5a4e51fd74536a49f165423f8d678abba23b1159f01acdbc339e48159f7e"
+            }
+          },
+          "ItineraryId": "ALL"
+        }
+      ]
+    },
+    "RewardPoints": 0,
+    "Document": {
+      "ReferenceVersion": "1.0",
+      "Name": "MRST"
+    },
+    "Party": {
+      "Sender": {
+        "TravelAgencySender": {
+          "AgencyID": "",
+          "Contacts": {
+            "Contact": [
+              {
+                "EmailContact": "srilanakamrst@gmail.com"
+              }
+            ]
+          },
+          "IATA_Number": "",
+          "Name": "MRST"
+        }
+      }
+    },
+    "OfferResponseId": "1648460738798137002",
+    "AgentEmail": "a.pandian@wintlt.com",
+    "QueueNumber": "",
+    "DataLists": {
+      "PassengerList": {
+        "Passenger": [
+          {
+            "ContactAddress": {
+              "TypeOfAddress": "D",
+              "Address": "",
+              "State": "",
+              "Country": "",
+              "PostalCode": "",
+              "City": ""
+            },
+            "FirstName": "Kannan",
+            "SsrRequest": [],
+            "Gender": "Male",
+            "MiddleName": "",
+            "SeatSelection": [],
+            "OnflyDiscount": "0.00",
+            "NameTitle": "Mr",
+            "Passport": {
+              "ExpiryDate": "1970-01-01",
+              "Number": "",
+              "CountryCode": ""
+            },
+            "OptionalServices": [],
+            "OnflyMarkup": "1.66",
+            "ContactInfoRef": "CTC1",
+            "Preference": {
+              "WheelChairPreference": {
+                "Reason": ""
+              },
+              "SeatPreference": "",
+              "MealPreference": ""
+            },
+            "RedressDetails": {
+              "RedressNumber": "",
+              "KnownTravellerNumber": ""
+            },
+            "attributes": {
+              "PassengerID": "ADT1"
+            },
+            "LastName": "Santhosh",
+            "PassengerRefID": "ADT1",
+            "PTC": "ADT",
+            "BirthDate": "1997-09-11"
+          },
+          {
+            "ContactAddress": {
+              "TypeOfAddress": "D",
+              "Address": "",
+              "State": "",
+              "Country": "",
+              "PostalCode": "",
+              "City": ""
+            },
+            "FirstName": "Rajan",
+            "SsrRequest": [],
+            "Gender": "Male",
+            "MiddleName": "",
+            "SeatSelection": [],
+            "OnflyDiscount": "0.00",
+            "NameTitle": "Mstr",
+            "Passport": {
+              "ExpiryDate": "1970-01-01",
+              "Number": "",
+              "CountryCode": ""
+            },
+            "OptionalServices": [],
+            "OnflyMarkup": "1.67",
+            "ContactInfoRef": "CTC1",
+            "Preference": {
+              "WheelChairPreference": {
+                "Reason": ""
+              },
+              "SeatPreference": "",
+              "MealPreference": ""
+            },
+            "RedressDetails": {
+              "RedressNumber": "",
+              "KnownTravellerNumber": ""
+            },
+            "attributes": {
+              "PassengerID": "CHD1"
+            },
+            "LastName": "Raja",
+            "PassengerRefID": "CHD1",
+            "PTC": "CHD",
+            "BirthDate": "2011-09-15"
+          },
+          {
+            "ContactAddress": {
+              "TypeOfAddress": "D",
+              "Address": "",
+              "State": "",
+              "Country": "",
+              "PostalCode": "",
+              "City": ""
+            },
+            "FirstName": "Rajan",
+            "SsrRequest": [],
+            "Gender": "Male",
+            "MiddleName": "",
+            "SeatSelection": [],
+            "OnflyDiscount": "0.00",
+            "NameTitle": "Mstr",
+            "Passport": {
+              "ExpiryDate": "1970-01-01",
+              "Number": "",
+              "CountryCode": ""
+            },
+            "OptionalServices": [],
+            "OnflyMarkup": "1.67",
+            "ContactInfoRef": "CTC1",
+            "Preference": {
+              "WheelChairPreference": {
+                "Reason": ""
+              },
+              "SeatPreference": "",
+              "MealPreference": ""
+            },
+            "RedressDetails": {
+              "RedressNumber": "",
+              "KnownTravellerNumber": ""
+            },
+            "attributes": {
+              "PassengerID": "INF1"
+            },
+            "LastName": "Sundar",
+            "PassengerRefID": "INF1",
+            "PTC": "INF",
+            "BirthDate": "2021-02-18"
+          }
+        ]
+      },
+      "ContactList": {
+        "GstInformation": {
+          "gst_email": "",
+          "gst_number": "",
+          "gst_company_name": ""
+        },
+        "ContactInformation": [
+          {
+            "AgencyName": "MRST",
+            "Address": {
+              "StateProv": "ON",
+              "Street": [
+                "chennai",
+                ""
+              ],
+              "PostalCode": "625578",
+              "CityName": "chennai",
+              "CountryCode": "CA"
+            },
+            "PassengerContact": {
+              "Phone": {
+                "AreaCode": "+91",
+                "PhoneNumber": "8987766554",
+                "ContryCode": "+91"
+              },
+              "EmailAddress": "srilanakmrst@gmail.com"
+            },
+            "Phone": {
+              "AreaCode": "",
+              "PhoneNumber": "9058202266",
+              "ContryCode": "+1"
+            },
+            "ContactID": "CTC1",
+            "Mobile": {
+              "MobileNumber": "9058202266",
+              "ContryCode": "+1"
+            },
+            "EmailAddress": "srilanakamrst1@gmail.com"
+          },
+          {
+            "Address": {
+              "StateProv": "TN",
+              "Street": [
+                "chennai",
+                ""
+              ],
+              "PostalCode": "4556646",
+              "CityName": "chennai",
+              "CountryCode": "IN"
+            },
+            "Phone": {
+              "AreaCode": "",
+              "PhoneNumber": "",
+              "ContryCode": ""
+            },
+            "ContactID": "CTC2",
+            "Mobile": {
+              "MobileNumber": "8987766554",
+              "ContryCode": ""
+            },
+            "EmailAddress": "srilanakmrst@gmail.com"
+          }
+        ]
+      }
+    },
+    "GenerateVirtualCard": "N",
+    "FopChargeInfo": {
+      "156820711647081019885848954": {
+        "VI": {
+          "Percentage": "3",
+          "Fixed": 0
+        },
+        "DUS": {
+          "Percentage": "0",
+          "Fixed": 0
+        },
+        "MA": {
+          "Percentage": "0",
+          "Fixed": 0
+        },
+        "DI": {
+          "Percentage": "0",
+          "Fixed": 0
+        },
+        "MC": {
+          "Percentage": "3",
+          "Fixed": 0
+        },
+        "AX": {
+          "Percentage": "2.5",
+          "Fixed": 0
+        },
+        "JC": {
+          "Percentage": "0",
+          "Fixed": 0
+        },
+        "DC": {
+          "Percentage": 0,
+          "Fixed": 0
+        }
+      }
+    },
+    "UdidNumber": [
+      "998 NFOB2B",
+      "295 Ratha",
+      "9 MRST",
+      "b2bui2.tltid.com"
+    ],
+    "SupTimeZone": "",
+    "MetaData": {
+      "Tracking": "Y"
+    },
+    "DkNumber": "1234567123",
+    "BookingId": "19397",
+    "ChequeNumber": "",
+    "ShoppingResponseId": "1648460730328508671",
+    "AgentName": "Ratha",
+    "PromoDiscount": 0,
+    "BookingType": "BOOK"
+  }
+}

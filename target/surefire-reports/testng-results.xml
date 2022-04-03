@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="220" total="275" passed="55" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-28T15:12:29 IST" name="Suite" finished-at="2022-03-28T15:16:00 IST" duration-ms="211073">
+    <groups>
+    </groups>
+    <test started-at="2022-03-28T15:12:29 IST" name="Oneway Search" finished-at="2022-03-28T15:12:54 IST" duration-ms="25078">
+      <class name="runner.EngineApiTest">
+        <test-method signature="request()[pri:0, instance:runner.EngineApiTest@5b64c4b7]" started-at="2022-03-28T15:12:29 IST" name="request" finished-at="2022-03-28T15:12:29 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- request -->
+        <test-method signature="verifyOnewaySearching()[pri:0, instance:runner.EngineApiTest@5b64c4b7]" started-at="2022-03-28T15:12:29 IST" name="verifyOnewaySearching" finished-at="2022-03-28T15:12:35 IST" depends-on-methods="runner.EngineApiTest.request" duration-ms="6273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOnewaySearching -->
+        <test-method signature="onewayShopping()[pri:0, instance:runner.EngineApiTest@5b64c4b7]" started-at="2022-03-28T15:12:35 IST" name="onewayShopping" finished-at="2022-03-28T15:12:36 IST" depends-on-methods="runner.EngineApiTest.verifyOnewaySearching" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onewayShopping -->
+        <test-method signature="onewayOffer()[pri:0, instance:runner.EngineApiTest@5b64c4b7]" started-at="2022-03-28T15:12:36 IST" name="onewayOffer" finished-at="2022-03-28T15:12:36 IST" depends-on-methods="runner.EngineApiTest.verifyOnewaySearching" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onewayOffer -->
+        <test-method signature="onewayOwner()[pri:0, instance:runner.EngineApiTest@5b64c4b7]" started-at="2022-03-28T15:12:36 IST" name="onewayOwner" finished-at="2022-03-28T15:12:36 IST" depends-on-methods="runner.EngineApiTest.verifyOnewaySearching" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onewayOwner -->
+        <test-method signature="onewayOwnerName()[pri:0, instance:runner.EngineApiTest@5b64c4b7]" started-at="2022-03-28T15:12:36 IST" name="onewayOwnerName" finished-at="2022-03-28T15:12:36 IST" depends-on-methods="runner.EngineApiTest.verifyOnewaySearching" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onewayOwnerName -->
+        <test-method signature="onewayItinerary()[pri:0, instance:runner.EngineApiTest@5b64c4b7]" started-at="2022-03-28T15:12:36 IST" name="onewayItinerary" finished-at="2022-03-28T15:12:36 IST" depends-on-methods="runner.EngineApiTest.verifyOnewaySearching" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onewayItinerary -->
+        <test-method signature="onewayIdentifier()[pri:0, instance:runner.EngineApiTest@5b64c4b7]" started-at="2022-03-28T15:12:36 IST" name="onewayIdentifier" finished-at="2022-03-28T15:12:37 IST" depends-on-methods="runner.EngineApiTest.verifyOnewaySearching" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onewayIdentifier -->
+        <test-method signature="onewayPcc()[pri:0, instance:runner.EngineApiTest@5b64c4b7]" started-at="2022-03-28T15:12:37 IST" name="onewayPcc" finished-at="2022-03-28T15:12:37 IST" depends-on-methods="runner.EngineApiTest.verifyOnewaySearching" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onewayPcc -->
+        <test-method signature="onewayProviderInfo()[pri:0, instance:runner.EngineApiTest@5b64c4b7]" started-at="2022-03-28T15:12:37 IST" name="onewayProviderInfo" finished-at="2022-03-28T15:12:37 IST" depends-on-methods="runner.EngineApiTest.verifyOnewaySearching" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onewayProviderInfo -->
+        <test-method signature="onewayCabinType()[pri:0, instance:runner.EngineApiTest@5b64c4b7]" started-at="2022-03-28T15:12:37 IST" name="onewayCabinType" finished-at="2022-03-28T15:12:37 IST" depends-on-methods="runner.EngineApiTest.verifyOnewaySearching" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onewayCabinType -->
+        <test-method signature="onewayBaseBookingCurrencyPrice()[pri:0, instance:runner.EngineApiTest@5b64c4b7]" started-at="2022-03-28T15:12:37 IST" name="onewayBaseBookingCurrencyPrice" finished-at="2022-03-28T15:12:37 IST" depends-on-methods="runner.EngineApiTest.verifyOnewaySearching" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onewayBaseBookingCurrencyPrice -->
+        <test-method signature="onewayTaxBookingCurrencyPrice()[pri:0, instance:runner.EngineApiTest@5b64c4b7]" started-at="2022-03-28T15:12:37 IST" name="onewayTaxBookingCurrencyPrice" finished-at="2022-03-28T15:12:37 IST" depends-on-methods="runner.EngineApiTest.verifyOnewaySearching" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onewayTaxBookingCurrencyPrice -->
+        <test-method signature="onewayFopRef()[pri:0, instance:runner.EngineApiTest@5b64c4b7]" started-at="2022-03-28T15:12:37 IST" name="onewayFopRef" finished-at="2022-03-28T15:12:37 IST" depends-on-methods="runner.EngineApiTest.verifyOnewaySearching" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onewayFopRef -->
+        <test-method signature="onewayBookingCurrencyCode()[pri:0, instance:runner.EngineApiTest@5b64c4b7]" started-at="2022-03-28T15:12:37 IST" name="onewayBookingCurrencyCode" finished-at="2022-03-28T15:12:38 IST" depends-on-methods="runner.EngineApiTest.verifyOnewaySearching" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onewayBookingCurrencyCode -->
+        <test-method signature="pricingVerify()[pri:0, instance:runner.EngineApiTest@5b64c4b7]" started-at="2022-03-28T15:12:38 IST" name="pricingVerify" finished-at="2022-03-28T15:12:40 IST" depends-on-methods="runner.EngineApiTest.verifyOnewaySearching" duration-ms="2484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pricingVerify -->
+        <test-method signature="pricingShoppingResponseId()[pri:0, instance:runner.EngineApiTest@5b64c4b7]" started-at="2022-03-28T15:12:40 IST" name="pricingShoppingResponseId" finished-at="2022-03-28T15:12:40 IST" depends-on-methods="runner.EngineApiTest.pricingVerify, runner.EngineApiTest.verifyOnewaySearching" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pricingShoppingResponseId -->
+        <test-method signature="offerResponseId()[pri:0, instance:runner.EngineApiTest@5b64c4b7]" started-at="2022-03-28T15:12:40 IST" name="offerResponseId" finished-at="2022-03-28T15:12:40 IST" depends-on-methods="runner.EngineApiTest.pricingVerify, runner.EngineApiTest.verifyOnewaySearching" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- offerResponseId -->
+        <test-method signature="pricingOfferId()[pri:0, instance:runner.EngineApiTest@5b64c4b7]" started-at="2022-03-28T15:12:40 IST" name="pricingOfferId" finished-at="2022-03-28T15:12:40 IST" depends-on-methods="runner.EngineApiTest.pricingVerify, runner.EngineApiTest.verifyOnewaySearching" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pricingOfferId -->
+        <test-method signature="bookingCurrencyPrice()[pri:0, instance:runner.EngineApiTest@5b64c4b7]" started-at="2022-03-28T15:12:40 IST" name="bookingCurrencyPrice" finished-at="2022-03-28T15:12:40 IST" depends-on-methods="runner.EngineApiTest.pricingVerify, runner.EngineApiTest.verifyOnewaySearching" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookingCurrencyPrice -->
+        <test-method signature="bookingVerify()[pri:0, instance:runner.EngineApiTest@5b64c4b7]" started-at="2022-03-28T15:12:40 IST" name="bookingVerify" finished-at="2022-03-28T15:12:54 IST" depends-on-methods="runner.EngineApiTest.pricingVerify, runner.EngineApiTest.verifyOnewaySearching" duration-ms="13892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookingVerify -->
+        <test-method signature="responseOrderId()[pri:0, instance:runner.EngineApiTest@5b64c4b7]" started-at="2022-03-28T15:12:54 IST" name="responseOrderId" finished-at="2022-03-28T15:12:54 IST" depends-on-methods="runner.EngineApiTest.pricingVerify, runner.EngineApiTest.bookingVerify, runner.EngineApiTest.verifyOnewaySearching" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- responseOrderId -->
+        <test-method signature="gdsBookingReference()[pri:0, instance:runner.EngineApiTest@5b64c4b7]" started-at="2022-03-28T15:12:54 IST" name="gdsBookingReference" finished-at="2022-03-28T15:12:54 IST" depends-on-methods="runner.EngineApiTest.pricingVerify, runner.EngineApiTest.bookingVerify, runner.EngineApiTest.verifyOnewaySearching" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gdsBookingReference -->
+        <test-method signature="orderStatus()[pri:0, instance:runner.EngineApiTest@5b64c4b7]" started-at="2022-03-28T15:12:54 IST" name="orderStatus" finished-at="2022-03-28T15:12:54 IST" depends-on-methods="runner.EngineApiTest.pricingVerify, runner.EngineApiTest.bookingVerify, runner.EngineApiTest.verifyOnewaySearching" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderStatus -->
+        <test-method signature="fareType()[pri:0, instance:runner.EngineApiTest@5b64c4b7]" started-at="2022-03-28T15:12:54 IST" name="fareType" finished-at="2022-03-28T15:12:54 IST" depends-on-methods="runner.EngineApiTest.pricingVerify, runner.EngineApiTest.bookingVerify, runner.EngineApiTest.verifyOnewaySearching" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fareType -->
+        <test-method signature="orgFareType()[pri:0, instance:runner.EngineApiTest@5b64c4b7]" started-at="2022-03-28T15:12:54 IST" name="orgFareType" finished-at="2022-03-28T15:12:54 IST" depends-on-methods="runner.EngineApiTest.pricingVerify, runner.EngineApiTest.bookingVerify, runner.EngineApiTest.verifyOnewaySearching" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orgFareType -->
+        <test-method signature="supplierId()[pri:0, instance:runner.EngineApiTest@5b64c4b7]" started-at="2022-03-28T15:12:54 IST" name="supplierId" finished-at="2022-03-28T15:12:54 IST" depends-on-methods="runner.EngineApiTest.pricingVerify, runner.EngineApiTest.bookingVerify, runner.EngineApiTest.verifyOnewaySearching" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- supplierId -->
+        <test-method signature="flightDeparture()[pri:0, instance:runner.EngineApiTest@5b64c4b7]" started-at="2022-03-28T15:12:54 IST" name="flightDeparture" finished-at="2022-03-28T15:12:54 IST" depends-on-methods="runner.EngineApiTest.pricingVerify, runner.EngineApiTest.bookingVerify, runner.EngineApiTest.verifyOnewaySearching" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightDeparture -->
+      </class> <!-- runner.EngineApiTest -->
+    </test> <!-- Oneway Search -->
+    <test started-at="2022-03-28T15:12:54 IST" name="Return Search" finished-at="2022-03-28T15:13:53 IST" duration-ms="59039">
+      <class name="runner.EngineApiTest">
+        <test-method signature="returnSearchRequest()[pri:0, instance:runner.EngineApiTest@7e3f95fe]" started-at="2022-03-28T15:12:54 IST" name="returnSearchRequest" finished-at="2022-03-28T15:12:54 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnSearchRequest -->
+        <test-method signature="returnSearch()[pri:0, instance:runner.EngineApiTest@7e3f95fe]" started-at="2022-03-28T15:12:54 IST" name="returnSearch" finished-at="2022-03-28T15:13:00 IST" depends-on-methods="runner.EngineApiTest.returnSearchRequest" duration-ms="5825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnSearch -->
+        <test-method signature="returnShopping()[pri:0, instance:runner.EngineApiTest@7e3f95fe]" started-at="2022-03-28T15:13:00 IST" name="returnShopping" finished-at="2022-03-28T15:13:00 IST" depends-on-methods="runner.EngineApiTest.returnSearch" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnShopping -->
+        <test-method signature="returnPricing()[pri:0, instance:runner.EngineApiTest@7e3f95fe]" started-at="2022-03-28T15:13:00 IST" name="returnPricing" finished-at="2022-03-28T15:13:11 IST" depends-on-methods="runner.EngineApiTest.returnSearch" duration-ms="10813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnPricing -->
+        <test-method signature="returnPricingShoppingResponseId()[pri:0, instance:runner.EngineApiTest@7e3f95fe]" started-at="2022-03-28T15:13:11 IST" name="returnPricingShoppingResponseId" finished-at="2022-03-28T15:13:11 IST" depends-on-methods="runner.EngineApiTest.returnPricing, runner.EngineApiTest.returnSearch" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnPricingShoppingResponseId -->
+        <test-method signature="returnBooking()[pri:0, instance:runner.EngineApiTest@7e3f95fe]" started-at="2022-03-28T15:13:11 IST" name="returnBooking" finished-at="2022-03-28T15:13:53 IST" depends-on-methods="runner.EngineApiTest.returnPricing, runner.EngineApiTest.returnSearch" duration-ms="42084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnBooking -->
+        <test-method signature="returnBookingResponseOrderId()[pri:0, instance:runner.EngineApiTest@7e3f95fe]" started-at="2022-03-28T15:13:53 IST" name="returnBookingResponseOrderId" finished-at="2022-03-28T15:13:53 IST" depends-on-methods="runner.EngineApiTest.returnBooking, runner.EngineApiTest.returnPricing, runner.EngineApiTest.returnSearch" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnBookingResponseOrderId -->
+      </class> <!-- runner.EngineApiTest -->
+    </test> <!-- Return Search -->
+    <test started-at="2022-03-28T15:13:53 IST" name="MultiCity Search" finished-at="2022-03-28T15:14:57 IST" duration-ms="63950">
+      <class name="runner.EngineApiTest">
+        <test-method signature="multiCityRequest()[pri:0, instance:runner.EngineApiTest@3383649e]" started-at="2022-03-28T15:13:53 IST" name="multiCityRequest" finished-at="2022-03-28T15:13:53 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiCityRequest -->
+        <test-method signature="multiCitySearch()[pri:0, instance:runner.EngineApiTest@3383649e]" started-at="2022-03-28T15:13:53 IST" name="multiCitySearch" finished-at="2022-03-28T15:14:45 IST" depends-on-methods="runner.EngineApiTest.multiCityRequest" duration-ms="51503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiCitySearch -->
+        <test-method signature="multiCityShopping()[pri:0, instance:runner.EngineApiTest@3383649e]" started-at="2022-03-28T15:14:45 IST" name="multiCityShopping" finished-at="2022-03-28T15:14:47 IST" depends-on-methods="runner.EngineApiTest.multiCitySearch" duration-ms="1856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiCityShopping -->
+        <test-method signature="multiCityPricing()[pri:0, instance:runner.EngineApiTest@3383649e]" started-at="2022-03-28T15:14:47 IST" name="multiCityPricing" finished-at="2022-03-28T15:14:50 IST" depends-on-methods="runner.EngineApiTest.multiCitySearch" duration-ms="3094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiCityPricing -->
+        <test-method signature="multiCityPricingShoppingResponseId()[pri:0, instance:runner.EngineApiTest@3383649e]" started-at="2022-03-28T15:14:50 IST" name="multiCityPricingShoppingResponseId" finished-at="2022-03-28T15:14:50 IST" depends-on-methods="runner.EngineApiTest.multiCityPricing, runner.EngineApiTest.multiCitySearch" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiCityPricingShoppingResponseId -->
+        <test-method signature="multiCityBooking()[pri:0, instance:runner.EngineApiTest@3383649e]" started-at="2022-03-28T15:14:50 IST" name="multiCityBooking" finished-at="2022-03-28T15:14:57 IST" depends-on-methods="runner.EngineApiTest.multiCityPricing, runner.EngineApiTest.multiCitySearch" duration-ms="7441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiCityBooking -->
+        <test-method signature="multiCityBookingResponseOrderId()[pri:0, instance:runner.EngineApiTest@3383649e]" started-at="2022-03-28T15:14:57 IST" name="multiCityBookingResponseOrderId" finished-at="2022-03-28T15:14:57 IST" depends-on-methods="runner.EngineApiTest.multiCityPricing, runner.EngineApiTest.multiCityBooking, runner.EngineApiTest.multiCitySearch" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiCityBookingResponseOrderId -->
+      </class> <!-- runner.EngineApiTest -->
+    </test> <!-- MultiCity Search -->
+    <test started-at="2022-03-28T15:14:57 IST" name="OpenJaw Search" finished-at="2022-03-28T15:15:28 IST" duration-ms="30989">
+      <class name="runner.EngineApiTest">
+        <test-method signature="openJawRequest()[pri:0, instance:runner.EngineApiTest@9bd0fa6]" started-at="2022-03-28T15:14:57 IST" name="openJawRequest" finished-at="2022-03-28T15:14:57 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openJawRequest -->
+        <test-method signature="openJawSearch()[pri:0, instance:runner.EngineApiTest@9bd0fa6]" started-at="2022-03-28T15:14:57 IST" name="openJawSearch" finished-at="2022-03-28T15:15:18 IST" depends-on-methods="runner.EngineApiTest.openJawRequest" duration-ms="20803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openJawSearch -->
+        <test-method signature="openJawShopping()[pri:0, instance:runner.EngineApiTest@9bd0fa6]" started-at="2022-03-28T15:15:18 IST" name="openJawShopping" finished-at="2022-03-28T15:15:19 IST" depends-on-methods="runner.EngineApiTest.openJawSearch" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openJawShopping -->
+        <test-method signature="openJawPricing()[pri:0, instance:runner.EngineApiTest@9bd0fa6]" started-at="2022-03-28T15:15:19 IST" name="openJawPricing" finished-at="2022-03-28T15:15:21 IST" depends-on-methods="runner.EngineApiTest.openJawSearch" duration-ms="2369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openJawPricing -->
+        <test-method signature="openJawPricingShoppingResponseId()[pri:0, instance:runner.EngineApiTest@9bd0fa6]" started-at="2022-03-28T15:15:21 IST" name="openJawPricingShoppingResponseId" finished-at="2022-03-28T15:15:21 IST" depends-on-methods="runner.EngineApiTest.openJawSearch, runner.EngineApiTest.openJawPricing" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openJawPricingShoppingResponseId -->
+        <test-method signature="openJawBooking()[pri:0, instance:runner.EngineApiTest@9bd0fa6]" started-at="2022-03-28T15:15:21 IST" name="openJawBooking" finished-at="2022-03-28T15:15:28 IST" depends-on-methods="runner.EngineApiTest.openJawPricing, runner.EngineApiTest.openJawSearch" duration-ms="7466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openJawBooking -->
+        <test-method signature="openJawBookingResponseOrderId()[pri:0, instance:runner.EngineApiTest@9bd0fa6]" started-at="2022-03-28T15:15:28 IST" name="openJawBookingResponseOrderId" finished-at="2022-03-28T15:15:28 IST" depends-on-methods="runner.EngineApiTest.openJawBooking, runner.EngineApiTest.openJawSearch, runner.EngineApiTest.openJawPricing" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openJawBookingResponseOrderId -->
+      </class> <!-- runner.EngineApiTest -->
+    </test> <!-- OpenJaw Search -->
+    <test started-at="2022-03-28T15:15:28 IST" name="Card Search" finished-at="2022-03-28T15:16:00 IST" duration-ms="31696">
+      <class name="runner.EngineApiTest">
+        <test-method signature="cardRequest()[pri:0, instance:runner.EngineApiTest@46f699d5]" started-at="2022-03-28T15:15:28 IST" name="cardRequest" finished-at="2022-03-28T15:15:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cardRequest -->
+        <test-method signature="onewayCardSearching()[pri:0, instance:runner.EngineApiTest@46f699d5]" started-at="2022-03-28T15:15:28 IST" name="onewayCardSearching" finished-at="2022-03-28T15:15:37 IST" depends-on-methods="runner.EngineApiTest.cardRequest" duration-ms="8560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onewayCardSearching -->
+        <test-method signature="onewayCardShopping()[pri:0, instance:runner.EngineApiTest@46f699d5]" started-at="2022-03-28T15:15:37 IST" name="onewayCardShopping" finished-at="2022-03-28T15:15:37 IST" depends-on-methods="runner.EngineApiTest.onewayCardSearching" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onewayCardShopping -->
+        <test-method signature="onewayCardPricingVerify()[pri:0, instance:runner.EngineApiTest@46f699d5]" started-at="2022-03-28T15:15:37 IST" name="onewayCardPricingVerify" finished-at="2022-03-28T15:15:39 IST" depends-on-methods="runner.EngineApiTest.onewayCardSearching" duration-ms="2199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onewayCardPricingVerify -->
+        <test-method signature="onewayCardBookingVerify()[pri:0, instance:runner.EngineApiTest@46f699d5]" started-at="2022-03-28T15:15:39 IST" name="onewayCardBookingVerify" finished-at="2022-03-28T15:16:00 IST" depends-on-methods="runner.EngineApiTest.onewayCardPricingVerify, runner.EngineApiTest.onewayCardSearching" duration-ms="20705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onewayCardBookingVerify -->
+        <test-method signature="onFlyMarkupVerify()[pri:0, instance:runner.EngineApiTest@46f699d5]" started-at="2022-03-28T15:16:00 IST" name="onFlyMarkupVerify" finished-at="2022-03-28T15:16:00 IST" depends-on-methods="runner.EngineApiTest.onewayCardBookingVerify" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onFlyMarkupVerify -->
+      </class> <!-- runner.EngineApiTest -->
+    </test> <!-- Card Search -->
+  </suite> <!-- Suite -->
+</testng-results>

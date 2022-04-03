@@ -1,0 +1,1557 @@
+{
+    "OrderViewRS": {
+        "Document": {
+            "Name": "Clarity NDC GATEWAY",
+            "ReferenceVersion": "1.0"
+        },
+        "Party": {
+            "Sender": {
+                "TravelAgencySender": {
+                    "Name": "Engine_Automation_Live",
+                    "IATA_Number": "",
+                    "AgencyID": "Engine_Automation_Live",
+                    "Contacts": {
+                        "Contact": [
+                            {
+                                "EmailContact": "srilanakamrst@gmail.com"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "ShoppingResponseId": "1648460552057715202",
+        "Success": {
+            
+        },
+        "Order": [
+            {
+                "OrderID": "T2P2Z4B1",
+                "GdsBookingReference": "QDTM1L",
+                "OrderStatus": "SUCCESS",
+                "NeedToTicket": "N",
+                "3dsPaymentRequired": "N",
+                "PAReqKey": "",
+                "SecurePaymentUrl": "",
+                "TxnReferenceKey": "",
+                "TicketInfo": [
+                    
+                ],
+                "OptionalServiceStatus": "SUCCESS",
+                "SeatSelectionStatus": "FAILED",
+                "OfferID": "1777142611648460552448528347",
+                "TicketingBotAgentMarkup": 0,
+                "Owner": "WY",
+                "OrgOwner": "WY",
+                "OwnerName": "Oman Air",
+                "FareType": "PRI",
+                "OrgFareType": "PUB",
+                "IsTaxModified": "N",
+                "MinOneAdultAgeRequired": "N",
+                "ItinMergeType": "",
+                "BrandName": "",
+                "IsBrandedFare": "N",
+                "BrandedFareOptions": [
+                    
+                ],
+                "OnewayBrandedOptions": [
+                    
+                ],
+                "OnewayCabinOptions": [
+                    
+                ],
+                "BrandTextInfo": [
+                    
+                ],
+                "PccIdentifier": "Travelport_Engine_Travelport",
+                "PCC": "229G",
+                "ProviderCode": "1V",
+                "ContentSourceId": 1426,
+                "TicketContentSourceId": 1426,
+                "ProviderInfo": "Travelport",
+                "CabinType": "ECONOMY",
+                "CabinOptions": [
+                    
+                ],
+                "IsAdditionalCabinType": "N",
+                "SsrRequestAllowed": "Y",
+                "Eticket": "true",
+                "PaymentMode": "PAB",
+                "AllowHold": "Y",
+                "AllowPassengerEmail": "N",
+                "RestrictedFare": "false",
+                "OfferExpirationDateTime": "2022-09-25 03:59:00",
+                "PassportRequired": "N",
+                "BookingCurrencyCode": "CAD",
+                "EquivCurrencyCode": "CAD",
+                "HstPercentage": 0,
+                "MediaInfoDataRefKey": "",
+                "SortTotal": 684,
+                "CommissionableSortTotal": 678,
+                "CSCountry": "CA",
+                "FlightComKeyOrg": "WYPUBMAAMCT2022-09-24T15:30:002022-09-24T17:50:00WY254MCTDXB2022-09-24T20:10:002022-09-24T21:25:00WY611",
+                "ContentSourceApiMode": "TEST",
+                "RewardSettings": {
+                    "RewardAvailable": "N",
+                    "PointTypes": [
+                        
+                    ],
+                    "PointValues": {
+                        
+                    }
+                },
+                "BookingFeeInfo": {
+                    "FeeType": "",
+                    "BookingCurrencyPrice": 0,
+                    "EquivCurrencyPrice": 0
+                },
+                "TotalPrice": {
+                    "BookingCurrencyPrice": 684,
+                    "EquivCurrencyPrice": 684,
+                    "ApiCurrencyPrice": 678
+                },
+                "PerPerson": {
+                    "BookingCurrencyPrice": 228,
+                    "EquivCurrencyPrice": 228
+                },
+                "PerPersonRounded": {
+                    "BookingCurrencyPrice": 228,
+                    "EquivCurrencyPrice": 228
+                },
+                "BasePrice": {
+                    "BookingCurrencyPrice": 516,
+                    "EquivCurrencyPrice": 516,
+                    "ApiCurrencyPrice": 510
+                },
+                "TaxPrice": {
+                    "BookingCurrencyPrice": 168,
+                    "EquivCurrencyPrice": 168,
+                    "ApiCurrencyPrice": 168
+                },
+                "CommissionableTotalPrice": {
+                    "BookingCurrencyPrice": 678,
+                    "EquivCurrencyPrice": 678,
+                    "SortEquivCurrencyPrice": 678
+                },
+                "CommissionableBasePrice": {
+                    "BookingCurrencyPrice": 510,
+                    "EquivCurrencyPrice": 510
+                },
+                "CommissionablePerPerson": {
+                    "BookingCurrencyPrice": 226,
+                    "EquivCurrencyPrice": 226
+                },
+                "AirlineMaxMarkupInfo": {
+                    "FareType": "PUB",
+                    "GdsSource": "TRAVELPORT",
+                    "IsMarkupAllowed": true,
+                    "AllPaxMaxMarkup": 0,
+                    "TemplateId": 0,
+                    "TemplateName": "",
+                    "CalculationOn": "PPBF",
+                    "ShouldNotExceedPub": "N",
+                    "RestrictAsCap": "N",
+                    "MarkupDetails": {
+                        "ADT": {
+                            "F": 0,
+                            "P": 0,
+                            "AllowedMarkup": 0,
+                            "UtilizedMarkup": 2,
+                            "BalanceMarkup": 0
+                        },
+                        "CHD": {
+                            "F": 0,
+                            "P": 0,
+                            "AllowedMarkup": 0,
+                            "UtilizedMarkup": 2,
+                            "BalanceMarkup": 0
+                        },
+                        "INF": {
+                            "F": 0,
+                            "P": 0,
+                            "AllowedMarkup": 0,
+                            "UtilizedMarkup": 2,
+                            "BalanceMarkup": 0
+                        }
+                    },
+                    "Currency": "CAD",
+                    "MarkupExcRate": 1
+                },
+                "AgencyCommission": {
+                    "BookingCurrencyPrice": 6,
+                    "EquivCurrencyPrice": 6
+                },
+                "AgencyYqCommission": {
+                    "BookingCurrencyPrice": 0,
+                    "EquivCurrencyPrice": 0
+                },
+                "PortalMarkup": {
+                    "BookingCurrencyPrice": 0,
+                    "EquivCurrencyPrice": 0
+                },
+                "PortalSurcharge": {
+                    "BookingCurrencyPrice": 0,
+                    "EquivCurrencyPrice": 0
+                },
+                "PortalDiscount": {
+                    "BookingCurrencyPrice": 0,
+                    "EquivCurrencyPrice": 0
+                },
+                "ChangeFeeBefore": {
+                    "BookingCurrencyPrice": 0,
+                    "EquivCurrencyPrice": 0
+                },
+                "ChangeFeeAfter": {
+                    "BookingCurrencyPrice": 0,
+                    "EquivCurrencyPrice": 0
+                },
+                "CancelFeeBefore": {
+                    "BookingCurrencyPrice": 326.8,
+                    "EquivCurrencyPrice": 326.8
+                },
+                "CancelFeeAfter": {
+                    "BookingCurrencyPrice": 326.8,
+                    "EquivCurrencyPrice": 326.8
+                },
+                "PaxSeatInfo": [
+                    
+                ],
+                "0_FlightStops": 1,
+                "0_FlightDuration": 445,
+                "0_FlightDeparture": "2022-09-24T15:30:00",
+                "0_MarketingAirline": 1,
+                "OfferItem": [
+                    {
+                        "OfferItemID": "OFFERITEMID1",
+                        "Refundable": "false",
+                        "PassengerType": "ADT",
+                        "PassengerQuantity": 1,
+                        "TotalPriceDetail": {
+                            "TotalAmount": {
+                                "BookingCurrencyPrice": 328.8,
+                                "EquivCurrencyPrice": 328.8
+                            }
+                        },
+                        "Service": [
+                            {
+                                "ServiceID": "SV1",
+                                "PassengerRefs": "ADT1 ",
+                                "FlightRefs": "Flight1"
+                            }
+                        ],
+                        "FareDetail": {
+                            "PassengerRefs": "ADT1 ",
+                            "Price": {
+                                "TotalAmount": {
+                                    "BookingCurrencyPrice": 328.8,
+                                    "EquivCurrencyPrice": 328.8,
+                                    "ApiCurrencyPrice": 326.8
+                                },
+                                "BaseAmount": {
+                                    "BookingCurrencyPrice": 249,
+                                    "EquivCurrencyPrice": 249,
+                                    "ApiCurrencyPrice": 247
+                                },
+                                "TaxAmount": {
+                                    "BookingCurrencyPrice": 79.8,
+                                    "EquivCurrencyPrice": 79.8,
+                                    "ApiCurrencyPrice": 79.8
+                                },
+                                "AgencyCommission": {
+                                    "BookingCurrencyPrice": 2,
+                                    "EquivCurrencyPrice": 2
+                                },
+                                "AgencyYqCommission": {
+                                    "BookingCurrencyPrice": 0,
+                                    "EquivCurrencyPrice": 0
+                                },
+                                "BookingFee": {
+                                    "BookingCurrencyPrice": 0,
+                                    "EquivCurrencyPrice": 0
+                                },
+                                "PortalMarkup": {
+                                    "BookingCurrencyPrice": 0,
+                                    "EquivCurrencyPrice": 0
+                                },
+                                "PortalSurcharge": {
+                                    "BookingCurrencyPrice": 0,
+                                    "EquivCurrencyPrice": 0
+                                },
+                                "PortalDiscount": {
+                                    "BookingCurrencyPrice": 0,
+                                    "EquivCurrencyPrice": 0
+                                },
+                                "CommissionableTotalPrice": {
+                                    "BookingCurrencyPrice": 326.8,
+                                    "EquivCurrencyPrice": 326.8
+                                },
+                                "CommissionableBasePrice": {
+                                    "BookingCurrencyPrice": 247,
+                                    "EquivCurrencyPrice": 247
+                                },
+                                "Taxes": [
+                                    {
+                                        "TaxCode": "IN",
+                                        "BookingCurrencyPrice": 1.4,
+                                        "EquivCurrencyPrice": 1.4
+                                    },
+                                    {
+                                        "TaxCode": "K3",
+                                        "BookingCurrencyPrice": 13.9,
+                                        "EquivCurrencyPrice": 13.9
+                                    },
+                                    {
+                                        "TaxCode": "P2",
+                                        "BookingCurrencyPrice": 17.8,
+                                        "EquivCurrencyPrice": 17.8
+                                    },
+                                    {
+                                        "TaxCode": "I2",
+                                        "BookingCurrencyPrice": 3.3,
+                                        "EquivCurrencyPrice": 3.3
+                                    },
+                                    {
+                                        "TaxCode": "OM",
+                                        "BookingCurrencyPrice": 9.8,
+                                        "EquivCurrencyPrice": 9.8
+                                    },
+                                    {
+                                        "TaxCode": "ZR",
+                                        "BookingCurrencyPrice": 1.7,
+                                        "EquivCurrencyPrice": 1.7
+                                    },
+                                    {
+                                        "TaxCode": "YQ",
+                                        "BookingCurrencyPrice": 24.4,
+                                        "EquivCurrencyPrice": 24.4
+                                    },
+                                    {
+                                        "TaxCode": "YR",
+                                        "BookingCurrencyPrice": 7.5,
+                                        "EquivCurrencyPrice": 7.5
+                                    }
+                                ]
+                            },
+                            "ApiPrice": {
+                                "TotalAmount": 326.8,
+                                "BaseAmount": 247,
+                                "TaxAmount": 79.8,
+                                "YqTaxAmount": 24.4,
+                                "YrTaxAmount": 7.5
+                            }
+                        },
+                        "FareComponent": [
+                            {
+                                "PriceClassRef": "PCR_1",
+                                "SegmentRefs": "Segment1 Segment2"
+                            }
+                        ]
+                    },
+                    {
+                        "OfferItemID": "OFFERITEMID2",
+                        "Refundable": "false",
+                        "PassengerType": "CHD",
+                        "PassengerQuantity": 1,
+                        "TotalPriceDetail": {
+                            "TotalAmount": {
+                                "BookingCurrencyPrice": 275.3,
+                                "EquivCurrencyPrice": 275.3
+                            }
+                        },
+                        "Service": [
+                            {
+                                "ServiceID": "SV1",
+                                "PassengerRefs": "CHD1 ",
+                                "FlightRefs": "Flight1"
+                            }
+                        ],
+                        "FareDetail": {
+                            "PassengerRefs": "CHD1 ",
+                            "Price": {
+                                "TotalAmount": {
+                                    "BookingCurrencyPrice": 275.3,
+                                    "EquivCurrencyPrice": 275.3,
+                                    "ApiCurrencyPrice": 273.3
+                                },
+                                "BaseAmount": {
+                                    "BookingCurrencyPrice": 198,
+                                    "EquivCurrencyPrice": 198,
+                                    "ApiCurrencyPrice": 196
+                                },
+                                "TaxAmount": {
+                                    "BookingCurrencyPrice": 77.3,
+                                    "EquivCurrencyPrice": 77.3,
+                                    "ApiCurrencyPrice": 77.3
+                                },
+                                "AgencyCommission": {
+                                    "BookingCurrencyPrice": 2,
+                                    "EquivCurrencyPrice": 2
+                                },
+                                "AgencyYqCommission": {
+                                    "BookingCurrencyPrice": 0,
+                                    "EquivCurrencyPrice": 0
+                                },
+                                "BookingFee": {
+                                    "BookingCurrencyPrice": 0,
+                                    "EquivCurrencyPrice": 0
+                                },
+                                "PortalMarkup": {
+                                    "BookingCurrencyPrice": 0,
+                                    "EquivCurrencyPrice": 0
+                                },
+                                "PortalSurcharge": {
+                                    "BookingCurrencyPrice": 0,
+                                    "EquivCurrencyPrice": 0
+                                },
+                                "PortalDiscount": {
+                                    "BookingCurrencyPrice": 0,
+                                    "EquivCurrencyPrice": 0
+                                },
+                                "CommissionableTotalPrice": {
+                                    "BookingCurrencyPrice": 273.3,
+                                    "EquivCurrencyPrice": 273.3
+                                },
+                                "CommissionableBasePrice": {
+                                    "BookingCurrencyPrice": 196,
+                                    "EquivCurrencyPrice": 196
+                                },
+                                "Taxes": [
+                                    {
+                                        "TaxCode": "IN",
+                                        "BookingCurrencyPrice": 1.4,
+                                        "EquivCurrencyPrice": 1.4
+                                    },
+                                    {
+                                        "TaxCode": "K3",
+                                        "BookingCurrencyPrice": 11.4,
+                                        "EquivCurrencyPrice": 11.4
+                                    },
+                                    {
+                                        "TaxCode": "P2",
+                                        "BookingCurrencyPrice": 17.8,
+                                        "EquivCurrencyPrice": 17.8
+                                    },
+                                    {
+                                        "TaxCode": "I2",
+                                        "BookingCurrencyPrice": 3.3,
+                                        "EquivCurrencyPrice": 3.3
+                                    },
+                                    {
+                                        "TaxCode": "OM",
+                                        "BookingCurrencyPrice": 9.8,
+                                        "EquivCurrencyPrice": 9.8
+                                    },
+                                    {
+                                        "TaxCode": "ZR",
+                                        "BookingCurrencyPrice": 1.7,
+                                        "EquivCurrencyPrice": 1.7
+                                    },
+                                    {
+                                        "TaxCode": "YQ",
+                                        "BookingCurrencyPrice": 24.4,
+                                        "EquivCurrencyPrice": 24.4
+                                    },
+                                    {
+                                        "TaxCode": "YR",
+                                        "BookingCurrencyPrice": 7.5,
+                                        "EquivCurrencyPrice": 7.5
+                                    }
+                                ]
+                            },
+                            "ApiPrice": {
+                                "TotalAmount": 273.3,
+                                "BaseAmount": 196,
+                                "TaxAmount": 77.3,
+                                "YqTaxAmount": 24.4,
+                                "YrTaxAmount": 7.5
+                            }
+                        },
+                        "FareComponent": [
+                            {
+                                "PriceClassRef": "PCR_1",
+                                "SegmentRefs": "Segment1 Segment2"
+                            }
+                        ]
+                    },
+                    {
+                        "OfferItemID": "OFFERITEMID3",
+                        "Refundable": "false",
+                        "PassengerType": "INF",
+                        "PassengerQuantity": 1,
+                        "TotalPriceDetail": {
+                            "TotalAmount": {
+                                "BookingCurrencyPrice": 79.9,
+                                "EquivCurrencyPrice": 79.9
+                            }
+                        },
+                        "Service": [
+                            {
+                                "ServiceID": "SV1",
+                                "PassengerRefs": "INF1 ",
+                                "FlightRefs": "Flight1"
+                            }
+                        ],
+                        "FareDetail": {
+                            "PassengerRefs": "INF1 ",
+                            "Price": {
+                                "TotalAmount": {
+                                    "BookingCurrencyPrice": 79.9,
+                                    "EquivCurrencyPrice": 79.9,
+                                    "ApiCurrencyPrice": 77.9
+                                },
+                                "BaseAmount": {
+                                    "BookingCurrencyPrice": 69,
+                                    "EquivCurrencyPrice": 69,
+                                    "ApiCurrencyPrice": 67
+                                },
+                                "TaxAmount": {
+                                    "BookingCurrencyPrice": 10.9,
+                                    "EquivCurrencyPrice": 10.9,
+                                    "ApiCurrencyPrice": 10.9
+                                },
+                                "AgencyCommission": {
+                                    "BookingCurrencyPrice": 2,
+                                    "EquivCurrencyPrice": 2
+                                },
+                                "AgencyYqCommission": {
+                                    "BookingCurrencyPrice": 0,
+                                    "EquivCurrencyPrice": 0
+                                },
+                                "BookingFee": {
+                                    "BookingCurrencyPrice": 0,
+                                    "EquivCurrencyPrice": 0
+                                },
+                                "PortalMarkup": {
+                                    "BookingCurrencyPrice": 0,
+                                    "EquivCurrencyPrice": 0
+                                },
+                                "PortalSurcharge": {
+                                    "BookingCurrencyPrice": 0,
+                                    "EquivCurrencyPrice": 0
+                                },
+                                "PortalDiscount": {
+                                    "BookingCurrencyPrice": 0,
+                                    "EquivCurrencyPrice": 0
+                                },
+                                "CommissionableTotalPrice": {
+                                    "BookingCurrencyPrice": 77.9,
+                                    "EquivCurrencyPrice": 77.9
+                                },
+                                "CommissionableBasePrice": {
+                                    "BookingCurrencyPrice": 67,
+                                    "EquivCurrencyPrice": 67
+                                },
+                                "Taxes": [
+                                    {
+                                        "TaxCode": "K3",
+                                        "BookingCurrencyPrice": 3.7,
+                                        "EquivCurrencyPrice": 3.7
+                                    },
+                                    {
+                                        "TaxCode": "YR",
+                                        "BookingCurrencyPrice": 7.2,
+                                        "EquivCurrencyPrice": 7.2
+                                    }
+                                ]
+                            },
+                            "ApiPrice": {
+                                "TotalAmount": 77.9,
+                                "BaseAmount": 67,
+                                "TaxAmount": 10.9,
+                                "YqTaxAmount": 0,
+                                "YrTaxAmount": 7.2
+                            }
+                        },
+                        "FareComponent": [
+                            {
+                                "PriceClassRef": "PCR_1",
+                                "SegmentRefs": "Segment1 Segment2"
+                            }
+                        ]
+                    }
+                ],
+                "AirlineCharge": [
+                    {
+                        "BuyingFare": 678,
+                        "SellingFare": 684,
+                        "AirlineCharge": 678,
+                        "ReqAirlineCharge": 678,
+                        "FaerType": "PUB",
+                        "OfferID": "1777142611648460552448528347",
+                        "Owner": "WY",
+                        "MultipleFop": "N"
+                    }
+                ],
+                "SplitPaymentInfo": [
+                    {
+                        "AirItineraryId": "1777142611648460552448528347",
+                        "MultipleFop": "N",
+                        "MaxCardsPerPax": 0,
+                        "MaxCardsPerPaxInMFOP": 0,
+                        "AllowedMarkup": {
+                            "ADT": 0,
+                            "CHD": 0,
+                            "INF": 0
+                        }
+                    }
+                ],
+                "SupplierWiseFares": [
+                    {
+                        "SupplierAccountId": 577,
+                        "ConsumerAccountid": 577,
+                        "PosBaseFare": 516,
+                        "PosTaxFare": 168,
+                        "PosTotalFare": 684,
+                        "PaxFareBreakup": [
+                            {
+                                "PaxType": "ADT",
+                                "PaxQuantity": 1,
+                                "PosBaseFare": 249,
+                                "PosTaxFare": 79.8,
+                                "PosYQTax": 24.4,
+                                "PosYRTax": 7.5,
+                                "PosTotalFare": 328.8,
+                                "ItinTax": [
+                                    {
+                                        "TaxCode": "IN",
+                                        "ApiAmount": 1.4,
+                                        "PosAmount": 1.4,
+                                        "ReqAmount": 1.4,
+                                        "TaxLine": 1,
+                                        "PosApiAmount": 1.4,
+                                        "ReqApiAmount": 1.4
+                                    },
+                                    {
+                                        "TaxCode": "K3",
+                                        "ApiAmount": 13.9,
+                                        "PosAmount": 13.9,
+                                        "ReqAmount": 13.9,
+                                        "TaxLine": 2,
+                                        "PosApiAmount": 13.9,
+                                        "ReqApiAmount": 13.9
+                                    },
+                                    {
+                                        "TaxCode": "P2",
+                                        "ApiAmount": 17.8,
+                                        "PosAmount": 17.8,
+                                        "ReqAmount": 17.8,
+                                        "TaxLine": 3,
+                                        "PosApiAmount": 17.8,
+                                        "ReqApiAmount": 17.8
+                                    },
+                                    {
+                                        "TaxCode": "I2",
+                                        "ApiAmount": 3.3,
+                                        "PosAmount": 3.3,
+                                        "ReqAmount": 3.3,
+                                        "TaxLine": 4,
+                                        "PosApiAmount": 3.3,
+                                        "ReqApiAmount": 3.3
+                                    },
+                                    {
+                                        "TaxCode": "OM",
+                                        "ApiAmount": 9.8,
+                                        "PosAmount": 9.8,
+                                        "ReqAmount": 9.8,
+                                        "TaxLine": 5,
+                                        "PosApiAmount": 9.8,
+                                        "ReqApiAmount": 9.8
+                                    },
+                                    {
+                                        "TaxCode": "ZR",
+                                        "ApiAmount": 1.7,
+                                        "PosAmount": 1.7,
+                                        "ReqAmount": 1.7,
+                                        "TaxLine": 6,
+                                        "PosApiAmount": 1.7,
+                                        "ReqApiAmount": 1.7
+                                    },
+                                    {
+                                        "TaxCode": "YQ",
+                                        "ApiAmount": 24.4,
+                                        "PosAmount": 24.4,
+                                        "ReqAmount": 24.4,
+                                        "TaxLine": 7,
+                                        "PosApiAmount": 24.4,
+                                        "ReqApiAmount": 24.4
+                                    },
+                                    {
+                                        "TaxCode": "YR",
+                                        "ApiAmount": 7.5,
+                                        "PosAmount": 7.5,
+                                        "ReqAmount": 7.5,
+                                        "TaxLine": 8,
+                                        "PosApiAmount": 7.5,
+                                        "ReqApiAmount": 7.5
+                                    }
+                                ],
+                                "SupplierMarkup": 2,
+                                "SupplierDiscount": 0,
+                                "SupplierSurcharge": 0,
+                                "SupplierAgencyCommission": 2,
+                                "SupplierAgencyYqCommission": 0,
+                                "SupplierSegmentBenifit": 0,
+                                "AddOnCharge": 0,
+                                "PortalMarkup": 0,
+                                "PortalDiscount": 0,
+                                "PortalSurcharge": 0,
+                                "SupplierHstAmount": 0,
+                                "AddOnHstAmount": 0,
+                                "PortalHstAmount": 0,
+                                "SupplierUpSaleAmt": 0,
+                                "AirlineCommission": 2,
+                                "AirlineYqCommission": 0,
+                                "AirlineSegmentBenifit": 0,
+                                "AirlineCommissionPercentage": "0",
+                                "AirlineCommissionFixed": "2",
+                                "PosApiTotalFare": 326.8,
+                                "PosApiBaseFare": 247,
+                                "PosApiTaxFare": 79.8,
+                                "PosCurrency": "CAD",
+                                "SupplierBookingFee": 0,
+                                "PortalBookingFee": 0,
+                                "AirlineSegmentCommission": 0
+                            },
+                            {
+                                "PaxType": "CHD",
+                                "PaxQuantity": 1,
+                                "PosBaseFare": 198,
+                                "PosTaxFare": 77.3,
+                                "PosYQTax": 24.4,
+                                "PosYRTax": 7.5,
+                                "PosTotalFare": 275.3,
+                                "ItinTax": [
+                                    {
+                                        "TaxCode": "IN",
+                                        "ApiAmount": 1.4,
+                                        "PosAmount": 1.4,
+                                        "ReqAmount": 1.4,
+                                        "TaxLine": 1,
+                                        "PosApiAmount": 1.4,
+                                        "ReqApiAmount": 1.4
+                                    },
+                                    {
+                                        "TaxCode": "K3",
+                                        "ApiAmount": 11.4,
+                                        "PosAmount": 11.4,
+                                        "ReqAmount": 11.4,
+                                        "TaxLine": 2,
+                                        "PosApiAmount": 11.4,
+                                        "ReqApiAmount": 11.4
+                                    },
+                                    {
+                                        "TaxCode": "P2",
+                                        "ApiAmount": 17.8,
+                                        "PosAmount": 17.8,
+                                        "ReqAmount": 17.8,
+                                        "TaxLine": 3,
+                                        "PosApiAmount": 17.8,
+                                        "ReqApiAmount": 17.8
+                                    },
+                                    {
+                                        "TaxCode": "I2",
+                                        "ApiAmount": 3.3,
+                                        "PosAmount": 3.3,
+                                        "ReqAmount": 3.3,
+                                        "TaxLine": 4,
+                                        "PosApiAmount": 3.3,
+                                        "ReqApiAmount": 3.3
+                                    },
+                                    {
+                                        "TaxCode": "OM",
+                                        "ApiAmount": 9.8,
+                                        "PosAmount": 9.8,
+                                        "ReqAmount": 9.8,
+                                        "TaxLine": 5,
+                                        "PosApiAmount": 9.8,
+                                        "ReqApiAmount": 9.8
+                                    },
+                                    {
+                                        "TaxCode": "ZR",
+                                        "ApiAmount": 1.7,
+                                        "PosAmount": 1.7,
+                                        "ReqAmount": 1.7,
+                                        "TaxLine": 6,
+                                        "PosApiAmount": 1.7,
+                                        "ReqApiAmount": 1.7
+                                    },
+                                    {
+                                        "TaxCode": "YQ",
+                                        "ApiAmount": 24.4,
+                                        "PosAmount": 24.4,
+                                        "ReqAmount": 24.4,
+                                        "TaxLine": 7,
+                                        "PosApiAmount": 24.4,
+                                        "ReqApiAmount": 24.4
+                                    },
+                                    {
+                                        "TaxCode": "YR",
+                                        "ApiAmount": 7.5,
+                                        "PosAmount": 7.5,
+                                        "ReqAmount": 7.5,
+                                        "TaxLine": 8,
+                                        "PosApiAmount": 7.5,
+                                        "ReqApiAmount": 7.5
+                                    }
+                                ],
+                                "SupplierMarkup": 2,
+                                "SupplierDiscount": 0,
+                                "SupplierSurcharge": 0,
+                                "SupplierAgencyCommission": 2,
+                                "SupplierAgencyYqCommission": 0,
+                                "SupplierSegmentBenifit": 0,
+                                "AddOnCharge": 0,
+                                "PortalMarkup": 0,
+                                "PortalDiscount": 0,
+                                "PortalSurcharge": 0,
+                                "SupplierHstAmount": 0,
+                                "AddOnHstAmount": 0,
+                                "PortalHstAmount": 0,
+                                "SupplierUpSaleAmt": 0,
+                                "AirlineCommission": 2,
+                                "AirlineYqCommission": 0,
+                                "AirlineSegmentBenifit": 0,
+                                "AirlineCommissionPercentage": "0",
+                                "AirlineCommissionFixed": "2",
+                                "PosApiTotalFare": 273.3,
+                                "PosApiBaseFare": 196,
+                                "PosApiTaxFare": 77.3,
+                                "PosCurrency": "CAD",
+                                "SupplierBookingFee": 0,
+                                "PortalBookingFee": 0,
+                                "AirlineSegmentCommission": 0
+                            },
+                            {
+                                "PaxType": "INF",
+                                "PaxQuantity": 1,
+                                "PosBaseFare": 69,
+                                "PosTaxFare": 10.9,
+                                "PosYQTax": 0,
+                                "PosYRTax": 7.2,
+                                "PosTotalFare": 79.9,
+                                "ItinTax": [
+                                    {
+                                        "TaxCode": "K3",
+                                        "ApiAmount": 3.7,
+                                        "PosAmount": 3.7,
+                                        "ReqAmount": 3.7,
+                                        "TaxLine": 1,
+                                        "PosApiAmount": 3.7,
+                                        "ReqApiAmount": 3.7
+                                    },
+                                    {
+                                        "TaxCode": "YR",
+                                        "ApiAmount": 7.2,
+                                        "PosAmount": 7.2,
+                                        "ReqAmount": 7.2,
+                                        "TaxLine": 2,
+                                        "PosApiAmount": 7.2,
+                                        "ReqApiAmount": 7.2
+                                    }
+                                ],
+                                "SupplierMarkup": 2,
+                                "SupplierDiscount": 0,
+                                "SupplierSurcharge": 0,
+                                "SupplierAgencyCommission": 2,
+                                "SupplierAgencyYqCommission": 0,
+                                "SupplierSegmentBenifit": 0,
+                                "AddOnCharge": 0,
+                                "PortalMarkup": 0,
+                                "PortalDiscount": 0,
+                                "PortalSurcharge": 0,
+                                "SupplierHstAmount": 0,
+                                "AddOnHstAmount": 0,
+                                "PortalHstAmount": 0,
+                                "SupplierUpSaleAmt": 0,
+                                "AirlineCommission": 2,
+                                "AirlineYqCommission": 0,
+                                "AirlineSegmentBenifit": 0,
+                                "AirlineCommissionPercentage": "0",
+                                "AirlineCommissionFixed": "2",
+                                "PosApiTotalFare": 77.9,
+                                "PosApiBaseFare": 67,
+                                "PosApiTaxFare": 10.9,
+                                "PosCurrency": "CAD",
+                                "SupplierBookingFee": 0,
+                                "PortalBookingFee": 0,
+                                "AirlineSegmentCommission": 0
+                            }
+                        ],
+                        "SupplierMarkup": 6,
+                        "SupplierDiscount": 0,
+                        "SupplierSurcharge": 0,
+                        "SupplierAgencyCommission": 6,
+                        "SupplierAgencyYqCommission": 0,
+                        "SupplierSegmentBenifit": 0,
+                        "PosTemplateId": 1777,
+                        "PosTemplateName": "Engine_Automation_Live",
+                        "PosContractId": 572,
+                        "PosContractName": "WS-WY-GF-AC-EY-UL-AA-BA_PUB-PRI-ITX-PFA-COM_Engine_1A/1A/1V/1V/1S_YOWC42117/YTOC421H7/2E9L/229G/KY6G_@@@Engine_Automation",
+                        "PosContractCode": "56576",
+                        "PosRuleId": 772,
+                        "PosRuleName": "Markup",
+                        "PosRuleCode": "5656",
+                        "ContractRemarks": {
+                            "osi_notes": "",
+                            "ticket_designator": "",
+                            "endorsement": "",
+                            "override_endosement": "N",
+                            "tour_code": "",
+                            "remark": "",
+                            "itbt": "N",
+                            "eligibility": "Y",
+                            "cancellation": {
+                                "before": "",
+                                "after": ""
+                            },
+                            "changes": {
+                                "before": "",
+                                "after": ""
+                            },
+                            "no_show": {
+                                "after": ""
+                            },
+                            "non_eligibility_info": [
+                                
+                            ],
+                            "endosement": "",
+                            "fop_allowed": "Y",
+                            "fop_details": {
+                                "CC": {
+                                    "Allowed": "Y",
+                                    "Types": {
+                                        "AX": {
+                                            "P": 0,
+                                            "F": "1"
+                                        },
+                                        "MC": {
+                                            "P": 0,
+                                            "F": "1"
+                                        },
+                                        "VI": {
+                                            "P": 0,
+                                            "F": "1"
+                                        }
+                                    }
+                                },
+                                "DC": {
+                                    "Allowed": "Y",
+                                    "Types": {
+                                        "MC": {
+                                            "P": 0,
+                                            "F": 0
+                                        },
+                                        "VI": {
+                                            "P": 0,
+                                            "F": 0
+                                        }
+                                    }
+                                },
+                                "CASH": {
+                                    "Allowed": "Y"
+                                },
+                                "CHEQUE": {
+                                    "Allowed": "Y"
+                                },
+                                "ACH": {
+                                    "Allowed": "Y"
+                                },
+                                "PG": {
+                                    "Allowed": "Y"
+                                }
+                            }
+                        },
+                        "SupplierMarkupTemplateId": 1683,
+                        "SupplierMarkupTemplateName": "Engine_Automation",
+                        "SupplierMarkupContractId": 2013,
+                        "SupplierMarkupContractName": "WS-WY-GF-AC-EY-UL-AA-BA_PUB-PRI-ITX-PFA-COM_Engine_1A/1A/1V/1V/1S_YOWC42117/YTOC421H7/2E9L/229G/KY6G_@@@Engine_Automation Group 5851",
+                        "SupplierMarkupRuleId": 2222,
+                        "SupplierMarkupRuleName": "Markup",
+                        "SupplierMarkupRuleCode": "5656",
+                        "SupplierMarkupRuleType": "M",
+                        "SupplierMarkupRef": "R",
+                        "SupplierSurchargeIds": "",
+                        "SupplierSurcharges": [
+                            {
+                                
+                            },
+                            {
+                                
+                            },
+                            {
+                                
+                            }
+                        ],
+                        "AddOnCharge": 0,
+                        "PortalMarkup": 0,
+                        "PortalDiscount": 0,
+                        "PortalSurcharge": 0,
+                        "PortalMarkupTemplateId": 0,
+                        "PortalMarkupTemplateName": "",
+                        "PortalMarkupContractName": "",
+                        "PortalMarkupRuleId": 0,
+                        "PortalMarkupRuleName": "",
+                        "PortalMarkupRuleCode": "",
+                        "PortalSurchargeIds": "",
+                        "PortalPaxSurcharges": [
+                            {
+                                
+                            },
+                            {
+                                
+                            },
+                            {
+                                
+                            }
+                        ],
+                        "SupplierHstAmount": 0,
+                        "AddOnHstAmount": 0,
+                        "PortalHstAmount": 0,
+                        "FopDetails": {
+                            "CC": {
+                                "Allowed": "Y",
+                                "Types": {
+                                    "AX": {
+                                        "P": 0,
+                                        "F": "1"
+                                    },
+                                    "MC": {
+                                        "P": 0,
+                                        "F": "01"
+                                    },
+                                    "VI": {
+                                        "P": 0,
+                                        "F": "1"
+                                    }
+                                }
+                            },
+                            "DC": {
+                                "Allowed": "Y",
+                                "Types": {
+                                    "MC": {
+                                        "P": 0,
+                                        "F": 0
+                                    },
+                                    "VI": {
+                                        "P": 0,
+                                        "F": 0
+                                    }
+                                }
+                            },
+                            "CASH": {
+                                "Allowed": "Y"
+                            },
+                            "CHEQUE": {
+                                "Allowed": "Y"
+                            },
+                            "ACH": {
+                                "Allowed": "Y"
+                            },
+                            "PG": {
+                                "Allowed": "Y"
+                            }
+                        },
+                        "SupplierUpSaleAmt": 0,
+                        "AirlineCommission": 6,
+                        "AirlineYqCommission": 0,
+                        "AirlineSegmentBenifit": 0,
+                        "SupplierBookingFeeType": "",
+                        "PortalBookingFeeType": "",
+                        "SupplierBookingFee": 0,
+                        "PortalBookingFee": 0,
+                        "MarkupRuleLoyaltyCode": "Markup_5656_2222",
+                        "AirlineSegmentCommission": null
+                    }
+                ],
+                "BookingToEquivExRate": 1,
+                "ApiCurrency": "CAD",
+                "ApiCurrencyExRate": 1,
+                "ReqCurrency": "CAD",
+                "ReqCurrencyExRate": 1,
+                "PosCurrency": "CAD",
+                "PosCurrencyExRate": 1,
+                "SupplierId": 577,
+                "FopRef": "FOP_577_577_1426_772_WY_PRI"
+            }
+        ],
+        "DataLists": {
+            "PassengerList": {
+                "Passengers": [
+                    {
+                        "ContactAddress": {
+                            "TypeOfAddress": "D",
+                            "Address": "",
+                            "State": "",
+                            "Country": "",
+                            "PostalCode": "",
+                            "City": ""
+                        },
+                        "FirstName": "Rajan",
+                        "SsrRequest": [
+                            
+                        ],
+                        "Gender": "Male",
+                        "MiddleName": "",
+                        "SeatSelection": [
+                            
+                        ],
+                        "OnflyDiscount": "0.00",
+                        "NameTitle": "Mr",
+                        "Passport": {
+                            "ExpiryDate": "1970-01-01",
+                            "Number": "",
+                            "CountryCode": ""
+                        },
+                        "OptionalServices": [
+                            
+                        ],
+                        "OnflyMarkup": "0.00",
+                        "ContactInfoRef": "CTC1",
+                        "Preference": {
+                            "WheelChairPreference": {
+                                "Reason": ""
+                            },
+                            "SeatPreference": "",
+                            "MealPreference": ""
+                        },
+                        "RedressDetails": {
+                            "RedressNumber": "",
+                            "KnownTravellerNumber": ""
+                        },
+                        "attributes": {
+                            "PassengerID": "ADT1"
+                        },
+                        "LastName": "Santhosh",
+                        "PassengerRefID": "ADT1",
+                        "PTC": "ADT",
+                        "BirthDate": "1995-05-18"
+                    },
+                    {
+                        "ContactAddress": {
+                            "TypeOfAddress": "D",
+                            "Address": "",
+                            "State": "",
+                            "Country": "",
+                            "PostalCode": "",
+                            "City": ""
+                        },
+                        "FirstName": "karan",
+                        "SsrRequest": [
+                            
+                        ],
+                        "Gender": "Male",
+                        "MiddleName": "",
+                        "SeatSelection": [
+                            
+                        ],
+                        "OnflyDiscount": "0.00",
+                        "NameTitle": "Mstr",
+                        "Passport": {
+                            "ExpiryDate": "1970-01-01",
+                            "Number": "",
+                            "CountryCode": ""
+                        },
+                        "OptionalServices": [
+                            
+                        ],
+                        "OnflyMarkup": "0.00",
+                        "ContactInfoRef": "CTC1",
+                        "Preference": {
+                            "WheelChairPreference": {
+                                "Reason": ""
+                            },
+                            "SeatPreference": "",
+                            "MealPreference": ""
+                        },
+                        "RedressDetails": {
+                            "RedressNumber": "",
+                            "KnownTravellerNumber": ""
+                        },
+                        "attributes": {
+                            "PassengerID": "CHD1"
+                        },
+                        "LastName": "Arun",
+                        "PassengerRefID": "CHD1",
+                        "PTC": "CHD",
+                        "BirthDate": "2010-05-28"
+                    },
+                    {
+                        "ContactAddress": {
+                            "TypeOfAddress": "D",
+                            "Address": "",
+                            "State": "",
+                            "Country": "",
+                            "PostalCode": "",
+                            "City": ""
+                        },
+                        "FirstName": "Khan",
+                        "SsrRequest": [
+                            
+                        ],
+                        "Gender": "Male",
+                        "MiddleName": "",
+                        "SeatSelection": [
+                            
+                        ],
+                        "OnflyDiscount": "0.00",
+                        "NameTitle": "Mstr",
+                        "Passport": {
+                            "ExpiryDate": "1970-01-01",
+                            "Number": "",
+                            "CountryCode": ""
+                        },
+                        "OptionalServices": [
+                            
+                        ],
+                        "OnflyMarkup": "0.00",
+                        "ContactInfoRef": "CTC1",
+                        "Preference": {
+                            "WheelChairPreference": {
+                                "Reason": ""
+                            },
+                            "SeatPreference": "",
+                            "MealPreference": ""
+                        },
+                        "RedressDetails": {
+                            "RedressNumber": "",
+                            "KnownTravellerNumber": ""
+                        },
+                        "attributes": {
+                            "PassengerID": "INF1"
+                        },
+                        "LastName": "Tharun",
+                        "PassengerRefID": "INF1",
+                        "PTC": "INF",
+                        "BirthDate": "2020-05-29"
+                    }
+                ]
+            },
+            "DisclosureList": {
+                "Disclosures": [
+                    
+                ]
+            },
+            "FareList": {
+                "FareGroup": [
+                    
+                ]
+            },
+            "FlightSegmentList": {
+                "FlightSegment": [
+                    {
+                        "SegmentKey": "Segment1",
+                        "Departure": {
+                            "AirportCode": "MAA",
+                            "Date": "2022-09-24",
+                            "Time": "15:30:00",
+                            "AirportName": "Chennai International Airport",
+                            "Terminal": {
+                                "Name": ""
+                            }
+                        },
+                        "Arrival": {
+                            "AirportCode": "MCT",
+                            "Date": "2022-09-24",
+                            "Time": "17:50:00",
+                            "AirportName": "Muscat International Airport",
+                            "Terminal": {
+                                "Name": ""
+                            }
+                        },
+                        "MarketingCarrier": {
+                            "AirlineID": "WY",
+                            "Name": "Oman Air",
+                            "FlightNumber": "254",
+                            "OrgAirlineID": "WY"
+                        },
+                        "OperatingCarrier": {
+                            "AirlineID": "WY",
+                            "Name": "Oman Air",
+                            "FlightNumber": "254",
+                            "OrgAirlineID": "WY"
+                        },
+                        "Equipment": {
+                            "AircraftCode": "7M8",
+                            "Name": "7M8"
+                        },
+                        "Code": {
+                            "MarriageGroup": "0",
+                            "ResBookDesigCode": "L",
+                            "Cabin": "Y"
+                        },
+                        "FlightDetail": {
+                            "FlightDuration": {
+                                "Value": "3 H 50 M"
+                            },
+                            "Stops": {
+                                "Value": 0
+                            },
+                            "InterMediate": [
+                                
+                            ],
+                            "AirMilesFlown": 1597,
+                            "SegmentPnr": "UAAPRL"
+                        },
+                        "BrandId": "0002"
+                    },
+                    {
+                        "SegmentKey": "Segment2",
+                        "Departure": {
+                            "AirportCode": "MCT",
+                            "Date": "2022-09-24",
+                            "Time": "20:10:00",
+                            "AirportName": "Muscat International Airport",
+                            "Terminal": {
+                                "Name": ""
+                            }
+                        },
+                        "Arrival": {
+                            "AirportCode": "DXB",
+                            "Date": "2022-09-24",
+                            "Time": "21:25:00",
+                            "AirportName": "Dubai International Airport",
+                            "Terminal": {
+                                "Name": "1"
+                            }
+                        },
+                        "MarketingCarrier": {
+                            "AirlineID": "WY",
+                            "Name": "Oman Air",
+                            "FlightNumber": "611",
+                            "OrgAirlineID": "WY"
+                        },
+                        "OperatingCarrier": {
+                            "AirlineID": "WY",
+                            "Name": "Oman Air",
+                            "FlightNumber": "611",
+                            "OrgAirlineID": "WY"
+                        },
+                        "Equipment": {
+                            "AircraftCode": "7M8",
+                            "Name": "7M8"
+                        },
+                        "Code": {
+                            "MarriageGroup": "0",
+                            "ResBookDesigCode": "L",
+                            "Cabin": "Y"
+                        },
+                        "FlightDetail": {
+                            "FlightDuration": {
+                                "Value": "1 H 15 M"
+                            },
+                            "Stops": {
+                                "Value": 0
+                            },
+                            "InterMediate": [
+                                
+                            ],
+                            "AirMilesFlown": 230,
+                            "SegmentPnr": "UAAPRL"
+                        },
+                        "BrandId": "0002"
+                    }
+                ]
+            },
+            "FlightList": {
+                "Flight": [
+                    {
+                        "FlightKey": "Flight1",
+                        "Journey": {
+                            "Time": "7 H 25 M",
+                            "Stops": 1
+                        },
+                        "SegmentReferences": "Segment1 Segment2"
+                    }
+                ]
+            },
+            "OriginDestinationList": {
+                "OriginDestination": [
+                    {
+                        "OriginDestinationKey": "OD1",
+                        "DepartureCode": "MAA",
+                        "ArrivalCode": "DXB",
+                        "FlightReferences": "Flight1"
+                    }
+                ]
+            },
+            "PriceClassList": {
+                "PriceClass": [
+                    {
+                        "PriceClassID": "PCR_1",
+                        "Name": "pri",
+                        "ClassOfService": [
+                            {
+                                "SegementRef": "Segment1",
+                                "Code": {
+                                    "SeatsLeft": 7,
+                                    "Value": "L"
+                                },
+                                "MarketingName": "",
+                                "Carrier": "",
+                                "Cabin": "Y",
+                                "MediaInfoRefKey": "",
+                                "FareBasisCode": "LELOIA",
+                                "Baggage": {
+                                    "Allowance": 30,
+                                    "Unit": "kg"
+                                },
+                                "Meal": "",
+                                "CHD": {
+                                    "Baggage": {
+                                        "Allowance": 30,
+                                        "Unit": "kg"
+                                    },
+                                    "FareBasisCode": "LELOIA",
+                                    "Meal": ""
+                                },
+                                "INF": {
+                                    "Baggage": {
+                                        "Allowance": 30,
+                                        "Unit": "kg"
+                                    },
+                                    "FareBasisCode": "LELOIA",
+                                    "Meal": ""
+                                }
+                            },
+                            {
+                                "SegementRef": "Segment2",
+                                "Code": {
+                                    "SeatsLeft": 7,
+                                    "Value": "L"
+                                },
+                                "MarketingName": "",
+                                "Carrier": "",
+                                "Cabin": "Y",
+                                "MediaInfoRefKey": "",
+                                "FareBasisCode": "LELOIA",
+                                "Baggage": {
+                                    "Allowance": 30,
+                                    "Unit": "kg"
+                                },
+                                "Meal": "",
+                                "CHD": {
+                                    "Baggage": {
+                                        "Allowance": 30,
+                                        "Unit": "kg"
+                                    },
+                                    "FareBasisCode": "LELOIA",
+                                    "Meal": ""
+                                },
+                                "INF": {
+                                    "Baggage": {
+                                        "Allowance": 30,
+                                        "Unit": "kg"
+                                    },
+                                    "FareBasisCode": "LELOIA",
+                                    "Meal": ""
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "SuppliersList": [
+                577
+            ],
+            "FopList": [
+                {
+                    "CC": {
+                        "Allowed": "Y",
+                        "Types": {
+                            "AX": {
+                                "F": {
+                                    "BookingCurrencyPrice": "1",
+                                    "EquivCurrencyPrice": "1"
+                                },
+                                "P": 0,
+                                "Charges": {
+                                    "BookingCurrencyPrice": 1,
+                                    "EquivCurrencyPrice": 1
+                                }
+                            },
+                            "MC": {
+                                "F": {
+                                    "BookingCurrencyPrice": "01",
+                                    "EquivCurrencyPrice": "01"
+                                },
+                                "P": 0,
+                                "Charges": {
+                                    "BookingCurrencyPrice": 1,
+                                    "EquivCurrencyPrice": 1
+                                }
+                            },
+                            "VI": {
+                                "F": {
+                                    "BookingCurrencyPrice": "1",
+                                    "EquivCurrencyPrice": "1"
+                                },
+                                "P": 0,
+                                "Charges": {
+                                    "BookingCurrencyPrice": 1,
+                                    "EquivCurrencyPrice": 1
+                                }
+                            }
+                        }
+                    },
+                    "DC": {
+                        "Allowed": "Y",
+                        "Types": {
+                            "MC": {
+                                "F": {
+                                    "BookingCurrencyPrice": 0,
+                                    "EquivCurrencyPrice": 0
+                                },
+                                "P": 0,
+                                "Charges": {
+                                    "BookingCurrencyPrice": 0,
+                                    "EquivCurrencyPrice": 0
+                                }
+                            },
+                            "VI": {
+                                "F": {
+                                    "BookingCurrencyPrice": 0,
+                                    "EquivCurrencyPrice": 0
+                                },
+                                "P": 0,
+                                "Charges": {
+                                    "BookingCurrencyPrice": 0,
+                                    "EquivCurrencyPrice": 0
+                                }
+                            }
+                        }
+                    },
+                    "CASH": {
+                        "Allowed": "Y",
+                        "Types": {
+                            
+                        }
+                    },
+                    "CHEQUE": {
+                        "Allowed": "Y",
+                        "Types": {
+                            
+                        }
+                    },
+                    "ACH": {
+                        "Allowed": "Y",
+                        "Types": {
+                            
+                        }
+                    },
+                    "PG": {
+                        "Allowed": "Y",
+                        "Types": {
+                            
+                        }
+                    },
+                    "FopKey": "FOP_577_577_1426_772_WY_PRI"
+                }
+            ],
+            "CpList": [
+                {
+                    
+                }
+            ]
+        }
+    }
+}
